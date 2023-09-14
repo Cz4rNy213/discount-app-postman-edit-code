@@ -1,0 +1,18 @@
+{
+    "name": "restaurants",
+    "version": "2.0.0",
+    "description": "REST API to access Restaurants SQL foodtype data",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo\"Error: no test specified\" && exit 1"
+    },
+    "author": "Mikolaj",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "nodemon": "^2.0.22",
+        "mysql": "2.18.1"
+    }
+}
